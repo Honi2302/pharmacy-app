@@ -7,7 +7,13 @@ require("./db/config")
 const cors = require('cors')
 app.use(express.json())
 
-app.use(cors());
+app.use(cors(
+    {
+        origin:[""],
+        methods:["POST", "GET", "DELETE", "PUT"],
+        credentials: true
+    }
+));
 
 
 app.get("/stock", async (req, resp)=>{
