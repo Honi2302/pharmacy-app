@@ -1,0 +1,169 @@
+.App {
+  text-align: center;
+}
+
+.navbar{
+  background-color: rgb(113, 206, 206);
+  display: flex;
+}
+
+.navbar-list{
+  padding:1rem;
+}
+
+.navbar-list li{
+  display: inline-block;
+  padding-right: 0.75rem;
+  margin-top: 0px;
+  padding-left: 0.75rem;
+}
+
+.navbar-list li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0%;
+  background-color: rgb(113, 206, 206);
+  width: 100vw;
+}
+
+.footer h1{
+ text-align: center;
+}
+
+.register{
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.addProduct{
+  margin-top: 9vh;
+  text-align: center;
+}
+
+
+.inputbox{
+  display: block;
+  width: 25vw;
+  margin-top: 20px;
+  margin-left: 37vw;
+  padding: 10px;
+  border-radius: 9px;
+  border: 3px solid skyblue;
+}
+
+.sign-up-button{
+border: none;
+padding: 8px;
+width: 10vw;
+background-color: rgb(13, 116, 157);
+border-radius: 9px;
+color: white;
+font-size: 1rem;
+margin-top: 20px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav-right{
+  justify-self: right;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0px;
+  padding:1rem;
+  display: flex;
+}
+
+.invalid-input{
+  margin-top: -20px;
+  color: red;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 1.5px solid  rgb(116, 209, 246);;
+  padding: 6px;
+  width: 100px;
+}
+
+.product-list ul{
+  margin: 2px;
+  margin-left: 0;
+}
+
+.product-list .operations{
+  width: 200px;
+}
+
+.product-list .serialNumber{ 
+  width: 40px;
+}
+.product-list .medicine{
+  width: 150px;
+}
+
+.delete-button{
+  margin-left: 5px;
+  border: none;
+background-color: rgb(79, 174, 211);
+border-radius: 3px;
+color: white;
+font-size: 1rem;
+
+}
+
+.search-bar{
+  width: 60vw;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  border: 2px solid rgb(116, 209, 246);
+  border-radius: 1rem;
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
