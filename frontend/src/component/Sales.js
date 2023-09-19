@@ -11,7 +11,7 @@ function Sales() {
 
   const showProducts = async () => {
     try {
-      let result = await fetch("http://localhost:5000/sales");
+      let result = await fetch("https://pharmacy-app-backend.vercel.app/sales");
       let response = await result.json();
       
       // Sort the products array by saleDate in descending order
