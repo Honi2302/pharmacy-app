@@ -18,7 +18,7 @@ const Update = () => {
       },[])
 
       const getDataFromAPI = async ()=>{
-           let result = await fetch(`http://localhost:5000/update/${params.id}`)
+           let result = await fetch(`https://pharmacy-app-backend.vercel.app/update/${params.id}`)
            result = await result.json()
            console.log(result)
            setQuantity(result.Quantity)
