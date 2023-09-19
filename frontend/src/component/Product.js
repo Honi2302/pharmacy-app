@@ -10,14 +10,14 @@ const Product = () => {
     },[]) 
 
     const showProducts = async()=>{
-        let result = await fetch("http://localhost:5000/stock")
+        let result = await fetch("https://pharmacy-app-backend.vercel.app/stock")
         let responce = await result.json()
         setProduct(responce)
         console.log(responce)
     }
 
     const deleteProduct = async(id)=>{
-      let result = await fetch(`http://localhost:5000/delete/${id}`,{
+      let result = await fetch(`https://pharmacy-app-backend.vercel.app/delete/${id}`,{
         method:"Delete"
       })
       let responce = await result.json()
@@ -33,7 +33,7 @@ const Product = () => {
       let key = e.target.value
       if(key)
           {
-            let result = await fetch(`http://localhost:5000/search/${key}`)
+            let result = await fetch(`https://pharmacy-app-backend.vercel.app/search/${key}`)
             let result1 = await result.json()
             setProduct(result1)
           }
