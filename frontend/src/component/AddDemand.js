@@ -15,7 +15,7 @@ const AddProductfunction = async()=>{
         return false
   }
 
-  const url = "http://localhost:5000/addDemand"
+  const url = "https://pharmacy-app-backend.vercel.app/addDemand"
       const response = await axios.post(url, {
             medicineName,category, discription
       })
