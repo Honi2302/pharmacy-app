@@ -9,7 +9,7 @@ app.use(express.json())
 
 app.use(cors(
     {
-        origin:[""],
+        origin:["https://pharmacy-app-eight.vercel.app"],
         methods:["POST", "GET", "DELETE", "PUT"],
         credentials: true
     }
