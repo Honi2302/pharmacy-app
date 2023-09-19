@@ -9,14 +9,14 @@ const Demand = () => {
     },[]) 
 
     const showProducts = async()=>{
-        let result = await fetch("http://localhost:5000/demand")
+        let result = await fetch("https://pharmacy-app-backend.vercel.app/demand")
         let responce = await result.json()
         setProduct(responce)
         console.log(responce)
     }
 
     const deleteProduct = async(id)=>{
-        let result = await fetch(`http://localhost:5000/demand/delete/${id}`,{
+        let result = await fetch(`https://pharmacy-app-backend.vercel.app/demand/delete/${id}`,{
           method:"Delete"
         })
         let responce = await result.json()
