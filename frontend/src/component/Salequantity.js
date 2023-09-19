@@ -7,7 +7,7 @@ const Salequantity = () => {
   const navigate = useNavigate()
 
   const soldProduct = async()=>{
-    let result = await fetch(`http://localhost:5000/api/sell/${params.id}`, 
+    let result = await fetch(`https://pharmacy-app-backend.vercel.app/api/sell/${params.id}`, 
             {
                   method:"POST",
                   body: JSON.stringify({quantitySold}), 
