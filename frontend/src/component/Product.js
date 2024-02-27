@@ -45,11 +45,11 @@ const Product = () => {
   
     return (
     <div className='product-list'>
-        <div className='my-table'>
+        
       <h2>This is the list of products</h2>
       <input onChange={handleSearch} className="search-bar" type="text" placeholder='Search for Medicine Name, Salt Name'/>
       
-
+<div className='my-table'>
       <table class="table table-success table-striped-columns">
       <thead>
     <tr>
