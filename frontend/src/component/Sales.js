@@ -53,6 +53,7 @@ function Sales() {
     <div className='product-list'>
     <h2>Today's Sales</h2>
 
+    <div className='my-table'>
 <table class="table table-success table-striped-columns">
       <thead>
     <tr>
@@ -90,10 +91,11 @@ function Sales() {
         </tbody>
         </table>
         </div>
+          </div>
 
     
 <div className='product-list'>
-
+<div className='my-table'>
     {last7DaysSales.map((dayData) => (
 
 
@@ -145,6 +147,7 @@ function Sales() {
             
             </tbody>
             </table>
+              </div>
       </div>
     </div>
   </div>
