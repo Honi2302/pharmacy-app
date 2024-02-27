@@ -26,6 +26,7 @@ const Salequantity = () => {
   console.log(params.id, quantitySold)
     return (
     <div className="addProduct">
+              <div className="container-sm my-container">
       <input type="number"
       placeholder='Enter Sold Quantity'
       className="inputbox"
@@ -34,6 +35,7 @@ const Salequantity = () => {
       />
 
 <button onClick={soldProduct} className="sign-up-button">Update Product</button>
+    </div>
     </div>
   )
 }
