@@ -48,6 +48,12 @@ overflow-y:scroll;
   text-align: center;
 }
 
+.my-container{
+  display:flex;
+  flex-direction:column;
+  justify-items:center;
+}
+
 
 .inputbox{
   display: block;
