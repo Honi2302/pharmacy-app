@@ -32,7 +32,7 @@ const AddProductfunction = async()=>{
        <div className="addProduct">
       <h1>Add Demand!</h1>
 
-            <div className="container-sm">
+            <div className="container-sm my-container">
 
 <input type="text"
       placeholder='Enter Medicine Name'
