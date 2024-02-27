@@ -33,7 +33,7 @@ const AddProduct = () => {
   return (
     <div className="addProduct">
       <h1>Add Product!</h1>
-
+<div className="my-container">
       <div className="container-sm">
 
 <input type="text"
@@ -100,6 +100,7 @@ method="POST"
 
 <div> <button onClick={AddProductfunction} className="sign-up-button">Add Product</button></div>
     </div> 
+          </div> 
     </div>
   )
 }
