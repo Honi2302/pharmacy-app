@@ -67,7 +67,7 @@ overflow-y:scroll;
 .sign-up-button{
 border: none;
 padding: 8px;
-width: 10vw;
+min-width: 50%;
 background-color: rgb(13, 116, 157);
 border-radius: 9px;
 color: white;
