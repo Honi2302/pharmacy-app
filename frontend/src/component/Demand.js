@@ -32,6 +32,8 @@ const Demand = () => {
     return (
         <div className='product-list'>
         <h2>This is the list of Demand</h2>
+
+      <div className='my-table'>
         <table class="table table-success table-striped-columns">
         <thead>
       <tr>
@@ -60,6 +62,7 @@ const Demand = () => {
         }
         </table>
       </div>
+</div>
   )
 }
 
