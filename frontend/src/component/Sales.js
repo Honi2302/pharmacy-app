@@ -19,7 +19,7 @@ function Sales() {
       
       setSales(response);
       console.log(response);
-    } catch (error) {
+    } catch (error) { 
       console.error("Error fetching products:", error);
     }
   };
