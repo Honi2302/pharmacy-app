@@ -51,7 +51,7 @@ overflow-y:scroll;
 
 .inputbox{
   display: block;
-  width: 25vw;
+  min-width:50%;
   margin-top: 20px;
   margin-left: 37vw;
   padding: 10px;
