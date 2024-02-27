@@ -50,7 +50,7 @@ const Update = () => {
   return (
     <div className="addProduct">
       <h1>Update Product!</h1>
-
+  <div className="container-sm my-container">
 
 <input type="text"
       placeholder='Enter Medicine Name'
@@ -104,7 +104,7 @@ method="POST"
       value={MRP}/>
 
 <button onClick={updateProduct} className="sign-up-button">Update Product</button>
-     
+    </div> 
     </div>
   )
 }
