@@ -32,6 +32,8 @@ const AddProductfunction = async()=>{
        <div className="addProduct">
       <h1>Add Demand!</h1>
 
+            <div className="container-sm">
+
 <input type="text"
       placeholder='Enter Medicine Name'
       className="inputbox"
@@ -57,7 +59,7 @@ const AddProductfunction = async()=>{
 {error && !discription && <span className='invalid-input'>Enter Valid Discription</span>}
 
 <div> <button onClick={AddProductfunction} className="sign-up-button">Add Demand</button></div>
-
+</div>
 </div>
   )
 }
