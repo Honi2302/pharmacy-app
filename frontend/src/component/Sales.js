@@ -26,7 +26,7 @@ function Sales() {
 
 
   useEffect(() => {
-    // Filter today's sales data
+    // Filter today's sales data 
     const today = new Date().toISOString().split('T')[0]; // Get today's date
     const todaySalesData = sales.filter((sale) => sale.saleDate.split('T')[0] === today);
     setTodaySales(todaySalesData);
